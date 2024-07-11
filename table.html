@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2024-Table Design</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: linear-gradient(
+          to right,
+          #3c04d7c5,
+          rgba(136, 40, 142, 0.772),
+          #b051d0db
+        );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .main-div {
+        border-radius: 10px;
+        background-color: white;
+        overflow: hidden;
+      }
+      table {
+        border-collapse: collapse;
+        overflow: auto;
+      }
+      th,
+      td {
+        padding: 10px 40px 10px 40px;
+        font-weight: 300;
+        font-family: sans-serif;
+      }
+      th {
+        padding: 13px 0 13px 0;
+      }
+      #white {
+        background-color: white;
+      }
+      #gray {
+        background-color: rgba(146, 143, 143, 0.109);
+      }
+      @media (max-width: 768px) {
+        .main-div {
+          overflow-x: scroll; /* Disable horizontal scrolling on larger screens */
+        }
+        table {
+          background-color: bisque;
+          overflow-x: scroll;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+      <table>
+        <tr style="background-color: rgba(17, 16, 16, 0.863); color: white">
+          <th>Date</th>
+          <th>Order ID</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+        <tr id="white">
+          <td>2017-09-29 09:22</td>
+          <td>200398</td>
+          <td>Iphone X 64Gb Grey</td>
+          <td>$999.00</td>
+          <td>1</td>
+          <td>$999.00</td>
+        </tr>
+        <tr id="gray">
+          <td>2017-09-29 09:22</td>
+          <td>200398</td>
+          <td>Iphone X 64Gb Grey</td>
+          <td>$999.00</td>
+          <td>1</td>
+          <td>$411.00</td>
+        </tr>
+        <tr id="white">
+          <td>2017-09-29 09:22</td>
+          <td>200398</td>
+          <td>Iphone X 64Gb Grey</td>
+          <td>$999.00</td>
+          <td>2</td>
+          <td>$756.00</td>
+        </tr>
+        <tr id="gray">
+          <td>2017-09-29 09:22</td>
+          <td>200398</td>
+          <td>Iphone X 64Gb Grey</td>
+          <td>$999.00</td>
+          <td>4</td>
+          <td>$44.00</td>
+        </tr>
+        <tr id="white">
+          <td>2017-09-29 09:22</td>
+          <td>200398</td>
+          <td>Iphone X 64Gb Grey</td>
+          <td>$999.00</td>
+          <td>1</td>
+          <td>$187.00</td>
+        </tr>
+        <tr id="gray">
+          <td>2017-09-29 09:22</td>
+          <td>200398</td>
+          <td>Iphone X 64Gb Grey</td>
+          <td>$999.00</td>
+          <td>6</td>
+          <td>$999.00</td>
+        </tr>
+        <tr id="white">
+          <td>2017-09-29 09:22</td>
+          <td>200398</td>
+          <td>Iphone X 64Gb Grey</td>
+          <td>$999.00</td>
+          <td>4</td>
+          <td>$244.00</td>
+        </tr>
+        <tr id="gray">
+          <td>2017-09-29 09:22</td>
+          <td>200398</td>
+          <td>Iphone X 64Gb Grey</td>
+          <td>$999.00</td>
+          <td>7</td>
+          <td>$97.00</td>
+        </tr>
+        <tr id="white">
+          <td>2017-09-29 09:22</td>
+          <td>200398</td>
+          <td>Iphone X 64Gb Grey</td>
+          <td>$999.00</td>
+          <td>5</td>
+          <td>$12.00</td>
+        </tr>
+        <tr id="gray">
+          <td>2017-09-29 09:22</td>
+          <td>200398</td>
+          <td>Iphone X 64Gb Grey</td>
+          <td>$999.00</td>
+          <td>9</td>
+          <td>$192.00</td>
+        </tr>
+        <tr id="white">
+          <td>2017-09-29 09:22</td>
+          <td>200398</td>
+          <td>Iphone X 64Gb Grey</td>
+          <td>$999.00</td>
+          <td>1</td>
+          <td>$101.00</td>
+        </tr>
+        <tr id="gray">
+          <td>2017-09-29 09:22</td>
+          <td>200398</td>
+          <td>Iphone X 64Gb Grey</td>
+          <td>$999.00</td>
+          <td>4</td>
+          <td>$10.00</td>
+        </tr>
+        <tr id="white">
+          <td>2017-09-29 09:22</td>
+          <td>200398</td>
+          <td>Iphone X 64Gb Grey</td>
+          <td>$999.00</td>
+          <td>3</td>
+          <td>$12345.00</td>
+        </tr>
+        <tr id="gray">
+          <td>2017-09-29 09:22</td>
+          <td>200398</td>
+          <td>Iphone X 64Gb Grey</td>
+          <td>$999.00</td>
+          <td>8</td>
+          <td>$1221.00</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
